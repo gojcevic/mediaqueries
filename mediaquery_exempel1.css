@@ -1,0 +1,61 @@
+body {
+    background-color: red;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+}
+
+img {
+
+max-width: 100%;
+
+}
+
+figure {
+
+margin: 0;
+
+}
+
+@media screen and (min-width: 420px) {
+
+    body {
+    
+    background: orangered; margin: 20px; 
+    }
+    h1{
+        font-size: 22px;
+        font-weight: bolder;
+    }
+    h2{
+        font-size: 17px;
+        font-style: italic;
+    }
+    p{
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (min-width: 794px) {
+
+    body {
+    
+    background: purple; margin: 2px;
+    }
+    
+}
+
+@media screen and (min-width: 1020px) {
+
+    body {
+    
+    background: rgb(25, 0, 255); margin: 30px;
+    max-width: 40%;
+    }
+    
+}
